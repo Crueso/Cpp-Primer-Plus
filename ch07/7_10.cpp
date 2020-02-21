@@ -20,9 +20,9 @@ int main(void)
         for(int i = 0; i < 2; ++i)
         {
             res = calculate(x, y, pfun_arr[i]);
-            cout << "result #" << i << ": " << res << endl;
-            cout << "Enter 2 floats again: " << endl;
+            cout << "result #" << i << ": " << res << endl;   
         }
+        cout << "Enter 2 floats again: " << endl;
     }
     return 0;
 }
